@@ -2,14 +2,6 @@ Meteor.startup(function () {
   GoogleMaps.load();
 });
 
-Template.map.helpers({
-  geolocationError: function () {
-    var error = Geolocation.error();
-    return error && error.message;
-  }
-});
-
-
 Template.map.onRendered(function () {
   console.log(this.data.lng);
   console.log(this.data.lat);
