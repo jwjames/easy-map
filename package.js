@@ -2,7 +2,7 @@ Package.describe({
   name: 'jeffrey:easy-map',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'An incredibly easy meteor.js map package',
+  summary: 'An extremely simple one-line Google Maps package.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/jwjames/easy-map',
   // By default, Meteor will default to using README.md for documentation.
