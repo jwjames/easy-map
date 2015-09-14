@@ -5,7 +5,7 @@ An extremely simple one-line Google Maps package. <br><br>
 meteor add jeffrey:easy-map
 ```
 <br>
-Note: This package has a default width and height set to width:800px height:500px.
+Note: This package has a default width:800px and height:500px.
 <br><br>
 
 ## Directions:
