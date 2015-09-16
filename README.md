@@ -1,5 +1,5 @@
 ## Easy-maps
-An extremely simple one-line Google Maps package. Can be used with Lat Lng or an address.<br><br>
+An extremely simple one-line Google Maps package. Can be used with GPS coordinates(latitude and longitude) or an address.<br><br>
 
 ### Add with:
 ```
