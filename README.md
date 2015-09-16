@@ -1,9 +1,12 @@
 ## Easy-maps
-An extremely simple one-line Google Maps package. <br><br>
+An extremely simple one-line Google Maps package. Can be used with Lat Lng or an address.<br><br>
+
 ### Add with:
 ```
 meteor add jeffrey:easy-map
 ```
+
+
 <br>
 Note: This package has a default `width:800px` and `height:500px`
 <br><br>
@@ -14,10 +17,11 @@ Add
 
 ### Example:
 #### Html:
+##### LatLng:
 ```javascript
 {{> map lat="40.7133" lng="-73.9533"}}
 ```
-
+##### Address:
 ```javascript
 {{> map address="1600 Pennsylvania Ave NW, Washington, DC 20500"}}
 ```
