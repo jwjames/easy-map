@@ -10,7 +10,7 @@ Note: This package has a default `width:800px` and `height:500px`
 
 ## Directions:
 Add
-```{{> map lat:"[latitude]"" lng:"[longitude]""}}``` in your HTML file. You will see a map appear centered on a pin at that location.
+```{{> map lat:"[latitude]" lng:"[longitude]"}}``` in your HTML file. You will see a map appear centered on a pin at that location.
 
 ### Example:
 #### Html:
