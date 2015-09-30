@@ -42,7 +42,7 @@ Add
 ```
 ##### Javascript:
 ```javascript
-Template.outerTemplate.helpers({
+Template.yourTemplateName.helpers({
   'addresses':
     [
     "1600 Pennsylvania Ave NW, Washington, DC 20500",
