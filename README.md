@@ -16,7 +16,7 @@ Notes:<br>
 
 * This package has a default `width:800px` and `height:500px`.
 
-<br><br>
+<br>
 
 ## Directions:
 Add
