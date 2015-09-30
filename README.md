@@ -14,7 +14,7 @@ meteor add jeffrey:easy-map
 <br>
 Notes:<br>
 <li>
-- This package has a default `width:800px` and `height:500px`. <br>
+- This package has a default `width:800px` and `height:500px`.
 </li>
 <br><br>
 
