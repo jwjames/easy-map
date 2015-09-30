@@ -76,7 +76,7 @@ Template.map.onRendered(function () {
 
     // Mapping by address string:
     if (GoogleMaps.loaded() && location && location.address) {
-      console.log('Setting geocode fn FOR ADDRESS');
+      console.log('Setting geocode fn for single address');
 
       function geocodeAddress(address, fn) {
         var geocoder = new google.maps.Geocoder();
@@ -134,7 +134,7 @@ Template.map.onRendered(function () {
 
     if (GoogleMaps.loaded() && location && location.addresses) {
       // REMEMBER TO SET BOUNDS
-      console.log("Array location.addresses");
+      console.log('Setting geocode fn for mutliple addresses');
       var bounds = new google.maps.LatLngBounds();
 
       function geocodeAddresses(addresses, fn) {

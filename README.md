@@ -35,13 +35,13 @@ Add
 ##### Html:
 ```javascript
 <template name = "outerTemplate">
-{{> map address=address}}
+{{> map addresses=addresses}}
 </template>
 ```
 ##### Javascript:
 ```javascript
 Template.outerTemplate.helpers({
-  'address':
+  'addresses':
     [
     "1600 Pennsylvania Ave NW, Washington, DC 20500",
     "Ft. Lauderdale, FL",
