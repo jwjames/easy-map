@@ -1,7 +1,8 @@
 ## Easy-maps
 
-An extremely simple one-line Google Maps package. Can be used with Lat Lng or an address.<br><br>
-####Announcement: Now accepts an array of addresses!
+An extremely simple one-line Google Maps package. Can be used with Lat Lng, an address, or an array of addresses.<br><br>
+####Version 0.0.7 Announcement: 
+Now accepts an array of addresses!
 
 ### Add with:
 ```
