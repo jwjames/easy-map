@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jeffrey:easy-map',
-  version: '0.0.6',
+  version: '0.0.8',
   // Brief, one-line summary of the package.
   summary: 'An extremely simple one-line Google Maps package.',
   // URL to the Git repository containing the source code for this package.
@@ -18,7 +18,7 @@ Package.onUse(function (api) {
     'underscore',
     'tracker',
     'mongo',
-    'reactive-var@1.0.5',
+    'reactive-var@1.0.5'
   ], ['client', 'server']);
 
   api.imply([

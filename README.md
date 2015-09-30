@@ -1,5 +1,6 @@
 ## Easy-maps
 An extremely simple one-line Google Maps package. Can be used with Lat Lng or an address.<br><br>
+####Announcement: Now accepts an array of addresses!
 
 ### Add with:
 ```
@@ -8,7 +9,10 @@ meteor add jeffrey:easy-map
 
 
 <br>
-Note: This package has a default `width:800px` and `height:500px`
+Notes:<br>
+<li>
+- This package has a default `width:800px` and `height:500px`. <br>
+<li>
 <br><br>
 
 ## Directions:
@@ -25,3 +29,21 @@ Add
 ```javascript
 {{> map address="1600 Pennsylvania Ave NW, Washington, DC 20500"}}
 ```
+
+#### Array of addresses:
+##### Html:
+```javascript
+<template name = "outerTemplate">
+{{> map address=address}}
+</template>
+```
+##### Javascript:
+```javascript
+Template.outerTemplate.helpers({
+  'address':
+    [
+    "1600 Pennsylvania Ave NW, Washington, DC 20500",
+    "Ft. Lauderdale, FL",
+    "1526 H St, Sacramento, CA 95814"
+    ]
+});
